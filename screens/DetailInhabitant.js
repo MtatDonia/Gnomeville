@@ -44,7 +44,7 @@ const DetailInhabitant = ({ route }) => {
           <View style={styles.detailRow}>
             <MaterialIcons name="group" size={24} color="black" />
             <Text style={styles.detailTitle}>Friends:</Text>
-            <Text style={styles.detail}>{gnomeDetails.friends.length > 0 ? gnomeDetails.friends.join(', ') : 'Aucun'}</Text>
+            <Text style={styles.detail}>{gnomeDetails.friends.length > 0 ? gnomeDetails.friends.join(', ') : 'none'}</Text>
           </View>
         </View>
       ) : (
